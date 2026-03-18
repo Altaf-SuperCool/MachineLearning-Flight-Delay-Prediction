@@ -1,0 +1,32 @@
+replicaCount: 2
+
+image:
+  repository: <your-registry>/inference-api
+  tag: "latest"
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 8000
+
+resources:
+  requests:
+    cpu: "250m"
+    memory: "512Mi"
+  limits:
+    cpu: "500m"
+    memory: "1Gi"
+
+env:
+  APP_ENV: "prod"
+  LOG_LEVEL: "INFO"
+  MODEL_DIR: "/app/artifacts"
+  MODEL_VERSION: "v1"
+  PREPROCESS_VERSION: "v1"
+
+autoscaling:
+  enabled: true
+  minReplicas: 2
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 70

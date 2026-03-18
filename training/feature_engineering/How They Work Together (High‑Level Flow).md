@@ -1,0 +1,26 @@
+feature_engineer.py
+        ↓
+preprocess.py
+        ↓
+transformers.py
+        ↓
+Outputs:
+  X_train.pt
+  X_test.pt
+  y_train.pt
+  y_test.pt
+  encoder_mapping.pkl
+  scaler.pkl
+
+python -m training.feature_engineering.feature_engineer
+
+Loading train/test datasets...
+Running preprocessing pipeline...
+Fitting transformers on training data...
+Transforming training data...
+Transforming test data...
+Converting to PyTorch tensors...
+Saving tensors...
+Saving preprocessing artifacts...
+Preprocessing completed successfully.
+Feature engineering completed successfully.

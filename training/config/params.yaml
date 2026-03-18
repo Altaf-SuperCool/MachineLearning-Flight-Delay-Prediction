@@ -1,0 +1,12 @@
+train_test_split: 0.2
+
+model:
+  epochs: 20
+  batch_size: 64
+  learning_rate: 0.001
+  hidden_units: [128, 64, 32]
+  dropout_rate: 0.2
+
+callbacks:
+  early_stopping_patience: 5
+  checkpoint_monitor: "val_loss"

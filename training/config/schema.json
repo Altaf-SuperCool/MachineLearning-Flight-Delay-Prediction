@@ -1,0 +1,24 @@
+{
+  "columns": {
+    "FL_DATE": "string",
+    "OP_CARRIER": "string",
+    "ORIGIN": "string",
+    "DEST": "string",
+    "CRS_DEP_TIME": "integer",
+    "CRS_ARR_TIME": "integer",
+    "DISTANCE": "float",
+    "DEP_DELAY": "float",
+    "ARR_DELAY": "float"
+  },
+  "target_column": "ARR_DELAY",
+  "required_columns": [
+    "FL_DATE",
+    "OP_CARRIER",
+    "ORIGIN",
+    "DEST",
+    "CRS_DEP_TIME",
+    "CRS_ARR_TIME",
+    "DISTANCE",
+    "ARR_DELAY"
+  ]
+}

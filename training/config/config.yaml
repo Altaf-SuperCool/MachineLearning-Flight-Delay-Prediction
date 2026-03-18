@@ -1,0 +1,20 @@
+project_name: airline-delay-mlops
+environment: local
+
+data:
+  raw_data_path: "data/raw/airline_delays.csv"
+  processed_data_path: "data/processed/processed_data.csv"
+  train_data_path: "data/processed/train.csv"
+  test_data_path: "data/processed/test.csv"
+  s3_bucket: "airline-delay-raw-data"
+  s3_key: "datasets/airline_delays.csv"
+
+mlflow:
+  tracking_uri: "http://localhost:5000"
+  experiment_name: "airline_delay_experiment"
+  model_registry: "airline_delay_registry"
+
+training:
+  output_dir: "artifacts/model"
+  logs_dir: "artifacts/logs"
+  checkpoints_dir: "artifacts/checkpoints"
