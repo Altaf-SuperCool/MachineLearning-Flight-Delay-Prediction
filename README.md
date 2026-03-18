@@ -2,6 +2,12 @@
 
 This repository contains a production-grade MLOps system for predicting airline delays. It covers the entire lifecycle from Infrastructure as Code (IaC) and PyTorch model training to FastAPI deployment on Kubernetes with real-time drift monitoring.
 
+## 👨‍💻 Author
+**Altaf Hussain Shaik**  
+*AI Generalist*  
+📧 [shaikusa@outlook.com](mailto:shaikusa@outlook.com)
+
+---
 ## **1. Project Vision & Objectives**
 In the aviation industry, delays cause significant operational costs and passenger dissatisfaction. This project achieves the following:
 * **Predictive Intelligence:** Anticipates disruptions by converting flight schedules and historical patterns into a binary classification (Delay vs. On-time).
