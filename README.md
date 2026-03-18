@@ -10,7 +10,7 @@ This repository contains a production-grade MLOps system for predicting airline 
 ---
 ## 🏗️ Architecture Diagram
 
-![ML Pipeline Architecture](docs/Images/ArchitectureDiagramm.png)
+![ML Pipeline Architecture](docs/Images/architecture-diagram.png)
 
 ## **1. Project Vision & Objectives**
 In the aviation industry, delays cause significant operational costs and passenger dissatisfaction. This project achieves the following:
