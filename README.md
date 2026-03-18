@@ -8,6 +8,10 @@ This repository contains a production-grade MLOps system for predicting airline 
 📧 [shaikusa@outlook.com](mailto:shaikusa@outlook.com)
 
 ---
+## 🏗️ Architecture Diagram
+
+![ML Pipeline Architecture](docs/Images/ArchitectureDiagramm.png)
+
 ## **1. Project Vision & Objectives**
 In the aviation industry, delays cause significant operational costs and passenger dissatisfaction. This project achieves the following:
 * **Predictive Intelligence:** Anticipates disruptions by converting flight schedules and historical patterns into a binary classification (Delay vs. On-time).
