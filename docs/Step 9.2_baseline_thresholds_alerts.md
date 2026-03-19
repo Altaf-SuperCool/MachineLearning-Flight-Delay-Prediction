@@ -1,11 +1,3 @@
-Here you go, Altaf — a **clean, repo‑ready Markdown file** you can drop directly into:
-
-```
-docs/step9.2_baseline_thresholds_alerts.md
-```
-
-No tools, no extra noise — just a polished reference document for your future Step 9.2 work.
-
 ---
 
 # **📘 Step 9.2 — Real Baseline Loader + Drift Thresholds + Alerts**
