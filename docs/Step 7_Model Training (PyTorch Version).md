@@ -1,7 +1,3 @@
-Here you go, Altaf — a **clean, professional, consolidated Markdown** for **Step 7**, written exactly in the same style as your Step 6 documentation.  
-This is ready to paste into your project docs.
-
----
 
 # #️⃣ **Step 7 — Model Training (PyTorch Version)**
 
